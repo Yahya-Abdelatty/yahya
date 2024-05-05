@@ -2,8 +2,8 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f6f6f6;
-    color: #333;
+    background-color: #0d0d0d;
+    color: #fff;
 }
 
 .container {
@@ -12,7 +12,7 @@ body {
 }
 
 header {
-    background-color: #007bff;
+    background-color: #001f3f;
     color: #fff;
     padding: 20px 0;
 }
@@ -47,7 +47,7 @@ section h2 {
 }
 
 .project {
-    background-color: #fff;
+    background-color: #001f3f;
     border-radius: 5px;
     padding: 20px;
     margin-bottom: 20px;
@@ -55,7 +55,7 @@ section h2 {
 }
 
 footer {
-    background-color: #007bff;
+    background-color: #001f3f;
     color: #fff;
     padding: 20px 0;
     text-align: center;
@@ -63,39 +63,4 @@ footer {
 
 footer p {
     margin: 0;
-}
-
-form {
-    max-width: 500px;
-    margin: 0 auto;
-}
-
-label,
-input,
-textarea,
-button {
-    display: block;
-    margin-bottom: 20px;
-}
-
-input[type="text"],
-input[type="email"],
-textarea {
-    width: 100%;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-}
-
-button {
-    background-color: #007bff;
-    color: #fff;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-button:hover {
-    background-color: #0056b3;
 }
