@@ -1,3 +1,26 @@
+/* Add this CSS for the animated Ethernet cables */
+.ethernet-cable {
+    position: absolute;
+    width: 2px;
+    height: 100px;
+    background-color: #fff;
+    border-radius: 2px;
+    z-index: 1;
+    animation: cableAnimation 2s linear infinite;
+}
+
+@keyframes cableAnimation {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(50px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
