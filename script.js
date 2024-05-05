@@ -43,3 +43,24 @@ function displayProjects() {
 setTimeout(() => {
     displayProjects();
 }, 1500);
+// JavaScript code for adding animated Ethernet cables
+// Function to create and append Ethernet cables
+function createEthernetCables() {
+    const container = document.querySelector('header .container');
+    const cable1 = document.createElement('div');
+    const cable2 = document.createElement('div');
+    
+    cable1.classList.add('ethernet-cable');
+    cable2.classList.add('ethernet-cable');
+    
+    cable1.style.left = '20%';
+    cable2.style.right = '20%';
+    
+    container.appendChild(cable1);
+    container.appendChild(cable2);
+}
+
+// Add Ethernet cables after a delay to synchronize with the header animation
+setTimeout(() => {
+    createEthernetCables();
+}, 1000);
